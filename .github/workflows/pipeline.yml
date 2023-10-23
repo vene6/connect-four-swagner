@@ -14,8 +14,17 @@ jobs:
              uses: actions/checkout@v4
            - name: Build
              run: dotnet build
+           - name: Upload Artifacts
+             uses: actions/upload-artifact@v3
+             with:
+               name: build
+               path: |
+                 ConnectFour*/bin/**
+                 ConnectFour*/obj/**
+  
     test: 
         runs-on: ubuntu-latest
+        needs: build
 
         steps: 
            - name: Setup .NET 7
@@ -24,5 +33,10 @@ jobs:
                 dotnet-version: 7
            - name: Checkout Repo
              uses: actions/checkout@v4
+           - name: Download Artifacts
+             uses: actions/download-artifact@v3
+             with:
+               name: build
            - name: Test
-             run: dotnet test
+             run: dotnet test --no-retore --no-build
+    
