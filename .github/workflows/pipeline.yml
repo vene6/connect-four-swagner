@@ -11,7 +11,7 @@ jobs:
              with:
                 dotnet-version: 7
            - name: Checkout Repo
-             uses: action/checkout@v4
+             uses: actions/checkout@v4
            - name: Build
              run: dotnet build
 
