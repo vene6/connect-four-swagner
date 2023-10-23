@@ -38,5 +38,5 @@ jobs:
              with:
                name: build
            - name: Test
-             run: dotnet test --no-retore --no-build
+             run: dotnet test --no-restore --no-build
     
