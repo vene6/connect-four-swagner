@@ -8,7 +8,7 @@
     }
   },
   "profiles": {
-    "Game2048Web": {
+    "ConnectFourWeb": {
       "commandName": "Project",
       "dotnetRunMessages": true,
       "launchBrowser": true,
