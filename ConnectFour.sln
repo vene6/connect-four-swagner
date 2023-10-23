@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32421.90
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E0E0FD09-B041-4C7D-8CFC-14672C8DA79E}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		.gitlab-ci.yml = .gitlab-ci.yml
+		coverlet.runsettings = coverlet.runsettings
+		Dockerfile = Dockerfile
+		.github\workflows\pipeline.yml = .github\workflows\pipeline.yml
+		README.md = README.md
+		SETUP.md = SETUP.md
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConnectFour", "ConnectFour\ConnectFour.csproj", "{B11B605E-C03D-4107-8471-1475F4918EE8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConnectFourTests", "ConnectFourTests\ConnectFourTests.csproj", "{AC7C72E6-B1BB-4176-A2D8-E725702C5772}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConnectFourWeb", "ConnectFourWeb\ConnectFourWeb.csproj", "{92CC7B58-CDA4-4F67-9152-594E5B2201C3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B11B605E-C03D-4107-8471-1475F4918EE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B11B605E-C03D-4107-8471-1475F4918EE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B11B605E-C03D-4107-8471-1475F4918EE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B11B605E-C03D-4107-8471-1475F4918EE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC7C72E6-B1BB-4176-A2D8-E725702C5772}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC7C72E6-B1BB-4176-A2D8-E725702C5772}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC7C72E6-B1BB-4176-A2D8-E725702C5772}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC7C72E6-B1BB-4176-A2D8-E725702C5772}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92CC7B58-CDA4-4F67-9152-594E5B2201C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92CC7B58-CDA4-4F67-9152-594E5B2201C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92CC7B58-CDA4-4F67-9152-594E5B2201C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92CC7B58-CDA4-4F67-9152-594E5B2201C3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F97F8173-492B-4566-9A3F-C1151913AD7A}
+	EndGlobalSection
+EndGlobal
