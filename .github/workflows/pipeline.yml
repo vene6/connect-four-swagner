@@ -1,5 +1,5 @@
 name: CI/CD pipeline for the Connect Four game
-on: push
+on: [ push, workflow_dispatch]
 jobs: 
 
     build: 
@@ -39,4 +39,5 @@ jobs:
                name: build
            - name: Test
              run: dotnet test --no-restore --no-build
+
     
